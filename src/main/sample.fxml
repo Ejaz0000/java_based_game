@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="plane" onKeyPressed="#pressed" prefHeight="720.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+   <children>
+      <Rectangle fx:id="bird" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" layoutX="62.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      <Rectangle fx:id="rec01" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="144.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec02" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="200.0" layoutX="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec03" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="216.0" layoutX="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec04" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="243.0" layoutX="600.0" layoutY="-9.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec05" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="259.0" layoutX="800.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="210.0" />
+      <Rectangle fx:id="rec06" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="269.0" layoutX="809.0" layoutY="461.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec07" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="243.0" layoutX="609.0" layoutY="487.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec08" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="181.0" layoutX="409.0" layoutY="551.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec09" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="137.0" layoutX="209.0" layoutY="595.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec10" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="110.0" layoutX="72.0" layoutY="622.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="137.0" />
+      <Rectangle fx:id="rec11" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="164.0" layoutY="317.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+      <Rectangle fx:id="rec12" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="122.0" layoutX="162.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+      <Rectangle fx:id="rec13" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="122.0" layoutX="325.0" layoutY="317.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+      <Rectangle fx:id="rec14" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="60.0" layoutX="488.0" layoutY="343.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+      <Rectangle fx:id="rec15" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="29.0" layoutX="651.0" layoutY="357.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="102.0" />
+      <Text fx:id="start_txt" layoutX="300.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press enter to start the game">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="lvl01" layoutX="438.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level-01">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="instruct_txt" layoutX="260.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Use left and right kew to move and avoid getting hit by anything">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

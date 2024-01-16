@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="plane" onKeyPressed="#pressed" prefHeight="720.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller02">
+   <children>
+      <Rectangle fx:id="bird" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" layoutX="29.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      <Rectangle fx:id="rec01" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="122.0" layoutX="80.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="120.0" />
+      <Rectangle fx:id="rec02" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="137.0" layoutX="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec03" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="152.0" layoutX="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec04" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="178.0" layoutX="600.0" layoutY="-9.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec05" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="196.0" layoutX="800.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="210.0" />
+      <Rectangle fx:id="rec06" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="171.0" layoutX="809.0" layoutY="559.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec07" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="122.0" layoutX="609.0" layoutY="608.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec08" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="76.0" layoutX="409.0" layoutY="656.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec09" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="45.0" layoutX="209.0" layoutY="687.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle fx:id="rec10" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="110.0" layoutX="72.0" layoutY="622.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="137.0" />
+      <Rectangle fx:id="rec11" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="164.0" layoutY="317.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+      <Rectangle fx:id="rec12" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="122.0" layoutX="162.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+      <Rectangle fx:id="rec13" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="93.0" layoutX="325.0" layoutY="346.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+      <Rectangle fx:id="rec14" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="60.0" layoutX="488.0" layoutY="343.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+      <Rectangle fx:id="rec15" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="29.0" layoutX="651.0" layoutY="357.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="102.0" />
+      <Text fx:id="start_txt" layoutX="300.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press enter to start the game">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="lvl02" layoutX="421.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level-02">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <Rectangle fx:id="rec16" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="104.0" layoutX="210.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+      <Rectangle fx:id="rec17" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="93.0" layoutX="435.0" layoutY="152.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+      <Rectangle fx:id="rec18" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="93.0" layoutX="563.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+      <Rectangle fx:id="rec19" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="366.0" layoutX="877.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+      <Rectangle fx:id="rec20" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="137.0" layoutX="655.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+      <Rectangle fx:id="rec21" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="110.0" layoutX="440.0" layoutY="439.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+      <Rectangle fx:id="rec22" arcHeight="5.0" arcWidth="5.0" fill="#3bff1f" height="171.0" layoutX="266.0" layoutY="520.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+      <Text fx:id="instruct_txt" layoutX="400.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press Esc to restart">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
